@@ -14,8 +14,18 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     requires org.apache.httpcomponents.httpcore;
     requires java.desktop;
 
+    opens kJavaFX.aHelloWorldFX;
+    opens kJavaFX.bLayouts;
+    opens kJavaFX.cControls;
+    opens kJavaFX.dEvents;
     opens kJavaFX.eTodoList;
+    opens kJavaFX.fJavaFXApplication;
 
+    exports kJavaFX.aHelloWorldFX;
+    exports kJavaFX.bLayouts;
+    exports kJavaFX.cControls;
+    exports kJavaFX.dEvents;
     exports kJavaFX.eTodoList;
+    exports kJavaFX.fJavaFXApplication;
 
 }
