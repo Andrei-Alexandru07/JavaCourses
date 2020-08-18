@@ -20,6 +20,7 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     opens kJavaFX.dEvents;
     opens kJavaFX.eTodoList;
     opens kJavaFX.fJavaFXApplication;
+    opens kJavaFX.gSceneBuilder;
 
     exports kJavaFX.aHelloWorldFX;
     exports kJavaFX.bLayouts;
@@ -27,5 +28,6 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     exports kJavaFX.dEvents;
     exports kJavaFX.eTodoList;
     exports kJavaFX.fJavaFXApplication;
+    exports kJavaFX.gSceneBuilder;
 
 }
