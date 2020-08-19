@@ -21,6 +21,8 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     opens kJavaFX.eTodoList;
     opens kJavaFX.fJavaFXApplication;
     opens kJavaFX.gSceneBuilder;
+    opens kJavaFX.hContactList;
+    opens kJavaFX.hContactList.DataModel;
 
     exports kJavaFX.aHelloWorldFX;
     exports kJavaFX.bLayouts;
@@ -29,5 +31,7 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     exports kJavaFX.eTodoList;
     exports kJavaFX.fJavaFXApplication;
     exports kJavaFX.gSceneBuilder;
+    exports kJavaFX.hContactList;
+    exports kJavaFX.hContactList.DataModel;
 
 }
