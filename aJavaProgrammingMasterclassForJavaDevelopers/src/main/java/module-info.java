@@ -23,6 +23,7 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     opens kJavaFX.gSceneBuilder;
     opens kJavaFX.hContactList;
     opens kJavaFX.hContactList.DataModel;
+    opens lBasicInputAndOutputIncludingJavaUtil.cIntroductionToIO;
 
     exports kJavaFX.aHelloWorldFX;
     exports kJavaFX.bLayouts;
@@ -33,5 +34,5 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     exports kJavaFX.gSceneBuilder;
     exports kJavaFX.hContactList;
     exports kJavaFX.hContactList.DataModel;
-
+    exports lBasicInputAndOutputIncludingJavaUtil.cIntroductionToIO;
 }
