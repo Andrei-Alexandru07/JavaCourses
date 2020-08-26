@@ -2,19 +2,14 @@ package kJavaFX.eTodoList.DataModel;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+
+import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Iterator;
 
 public class TodoData {
     private static final TodoData instance = new TodoData();
-    private static final String filename = "TodoListItem.txt";
 
     private ObservableList<TodoItem> todoItems;
     private DateTimeFormatter formatter;
@@ -37,8 +32,7 @@ public class TodoData {
 
     public void loadTodoItems() throws IOException {
         todoItems = FXCollections.observableArrayList();
-        Path path = Paths.get(filename);
-        BufferedReader br = Files.newBufferedReader(path);
+        BufferedReader br = new BufferedReader(new FileReader(new File("aJavaProgrammingMasterclassForJavaDevelopers/src/main/resources/kJavaFX/eTodoList/TodoListItem.txt")));
 
         String input;
 
@@ -62,8 +56,7 @@ public class TodoData {
     }
 
     public void storeTodoItems() throws IOException {
-        Path path = Paths.get(filename);
-        BufferedWriter bw = Files.newBufferedWriter(path);
+        BufferedWriter bw = new BufferedWriter(new FileWriter(new File("aJavaProgrammingMasterclassForJavaDevelopers/src/main/resources/kJavaFX/eTodoList/TodoListItem.txt")));
 
         try {
             Iterator<TodoItem> iter = todoItems.iterator();
