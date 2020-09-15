@@ -24,6 +24,7 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     opens kJavaFX.hContactList;
     opens kJavaFX.hContactList.DataModel;
     opens lBasicInputAndOutputIncludingJavaUtil.cIntroductionToIO;
+    opens lBasicInputAndOutputIncludingJavaUtil.dJavaNIO;
 
     exports kJavaFX.aHelloWorldFX;
     exports kJavaFX.bLayouts;
@@ -35,4 +36,5 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     exports kJavaFX.hContactList;
     exports kJavaFX.hContactList.DataModel;
     exports lBasicInputAndOutputIncludingJavaUtil.cIntroductionToIO;
+    exports lBasicInputAndOutputIncludingJavaUtil.dJavaNIO;
 }
