@@ -27,6 +27,7 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     opens lBasicInputAndOutputIncludingJavaUtil.dJavaNIO;
     opens lBasicInputAndOutputIncludingJavaUtil.eReadingAndWritingWithJavaNIO;
     opens lBasicInputAndOutputIncludingJavaUtil.fFileSystem;
+    opens mConcurrencyInJava.hJavaFXBackgroundTasks;
 
     exports kJavaFX.aHelloWorldFX;
     exports kJavaFX.bLayouts;
@@ -41,4 +42,5 @@ module aJavaProgrammingMasterclassForJavaDevelopers {
     exports lBasicInputAndOutputIncludingJavaUtil.dJavaNIO;
     exports lBasicInputAndOutputIncludingJavaUtil.eReadingAndWritingWithJavaNIO;
     exports lBasicInputAndOutputIncludingJavaUtil.fFileSystem;
+    exports mConcurrencyInJava.hJavaFXBackgroundTasks;
 }
