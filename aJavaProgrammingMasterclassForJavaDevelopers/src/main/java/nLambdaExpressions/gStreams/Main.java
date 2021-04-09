@@ -16,6 +16,7 @@ public class Main {
 
         List<String> gNumbers = new ArrayList<>();
 
+
 //        someBingoNumbers.forEach(number -> {
 //           if(number.toUpperCase().startsWith("G")){
 //               gNumbers.add(number);
