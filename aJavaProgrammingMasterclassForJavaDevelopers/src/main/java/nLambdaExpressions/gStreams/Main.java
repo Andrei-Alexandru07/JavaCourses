@@ -25,6 +25,7 @@ public class Main {
 //        gNumbers.sort((String s1, String s2) -> s1.compareTo(s2));
 //        gNumbers.forEach((String s) -> System.out.println(s));
 
+
         someBingoNumbers
                 .stream()
                 .map(String::toUpperCase)
