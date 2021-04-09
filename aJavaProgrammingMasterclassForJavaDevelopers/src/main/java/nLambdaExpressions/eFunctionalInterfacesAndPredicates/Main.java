@@ -29,6 +29,7 @@ public class Main {
 
         printEmployeesByAge(employees, "Employees over 30", employee -> employee.getAge() > 30);
         printEmployeesByAge(employees, "\nEmployees 30 and under", employee -> employee.getAge() <= 30);
+
         printEmployeesByAge(employees, "\nEmployees younger than 25", new Predicate<Employee>() {
             @Override
             public boolean test(Employee employee) {
